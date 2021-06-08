@@ -3,7 +3,7 @@
 @section('content')
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-md-7">
+            <div class="col-md-10">
                 @foreach ($posts as $post)
                     <div class="card mb-4">
                         @if ($post->image)

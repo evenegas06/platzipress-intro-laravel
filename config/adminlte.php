@@ -188,7 +188,7 @@ return [
     */
 
     'use_route_url' => false,
-    'dashboard_url' => '/',
+    'dashboard_url' => '/posts',
     'logout_url' => 'logout',
     'login_url' => 'login',
     'register_url' => 'register',
@@ -246,14 +246,6 @@ return [
         //     'url'  => 'admin/blog',
         //     'can'  => 'manage-blog',
         // ],
-        ['header' => 'Parte publica'],
-        [
-            'text'        => 'Ver todos',
-            'url'         => '/',
-            'icon'        => 'far fa-fw fa-file',
-            // 'label'       => 4,
-            // 'label_color' => 'success',
-        ],
         ['header' => 'Mis artículos'],
         [
             'text' => 'Listar',
@@ -303,19 +295,27 @@ return [
         //         ],
         //     ],
         // ],
-        ['header' => 'labels'],
+        ['header' => 'Parte publica'],
         [
-            'text'       => 'important',
+            'text'        => 'Ver todos',
+            'url'         => '/all',
+            'icon'        => 'far fa-fw fa-file',
+            // 'label'       => 4,
+            // 'label_color' => 'success',
+        ],
+        ['header' => 'Etiquetas'],
+        [
+            'text'       => 'importante',
             'icon_color' => 'red',
             'url'        => '#',
         ],
         [
-            'text'       => 'warning',
+            'text'       => 'advertencia',
             'icon_color' => 'yellow',
             'url'        => '#',
         ],
         [
-            'text'       => 'information',
+            'text'       => 'información',
             'icon_color' => 'cyan',
             'url'        => '#',
         ],
