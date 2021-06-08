@@ -21,9 +21,9 @@
 @section('auth_header', __('adminlte::adminlte.login_message'))
 
 @section('auth_body')
-<h3 class="text-center">Puedes usar los siguientes datos de prueba: </h3>
+{{-- <h3 class="text-center">Puedes usar los siguientes datos de prueba: </h3>
 <p><b>Usuario: user@test.com</b></p>
-<p><b>Contraseña: test</b></p>
+<p><b>Contraseña: test</b></p> --}}
     <form action="{{ $login_url }}" method="post">
         {{ csrf_field() }}
 
