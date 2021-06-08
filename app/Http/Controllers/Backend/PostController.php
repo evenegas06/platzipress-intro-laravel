@@ -17,7 +17,7 @@ class PostController extends Controller
     public function index()
     {
         $user = auth()->user();
-        $posts = $user->post;
+        $posts = $user->post->reverse();
 
         return view('posts.index', compact('posts'));
     }

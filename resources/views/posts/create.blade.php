@@ -23,14 +23,14 @@
                                     <input type="text" name="title" id="" class="form-control" required>
                                 </div>
                             </div>
-                            <div class="form-row">
+                            {{-- <div class="form-row">
                                 <div class="form-group col-md-4">
                                     <div class="custom-file">
-                                        <input type="file" name="file" class="custom-file-input" id="customFile">
+                                        <input type="file" name="file" class="custom-file-input " id="customFile" disabled>
                                         <label class="custom-file-label" for="customFile">Seleccionar imagen</label>
                                     </div>
                                 </div>
-                            </div>
+                            </div> --}}
                             <div class="form-row">
                                 <div class="form-group col-md-6">
                                     <label>Contenido *</label>
